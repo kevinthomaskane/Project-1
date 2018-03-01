@@ -1,0 +1,43 @@
+body {
+    background: black;
+}
+
+.nav-wrapper {
+    background-color: rgb(63, 169, 245);
+}
+
+#logo {
+    vertical-align: top;
+}
+
+.side-nav{
+    background-color: rgb(153, 156, 158);
+    width: 240px;
+    margin-top: 64px;
+    color: white;
+}
+.side-nav li>a {
+    color: white;
+}
+.side-nav p {
+    margin: 0px 20px 0px;
+    font-weight: bold;
+}
+.chart-list {
+    margin-left: 250px;
+    margin-top: 80px;
+    text-align: top;
+    width: 300px;
+    display: inline-block;
+}
+#video {
+    display: inline-block;
+    margin-top: -70px;
+    margin-left: 585px;
+}
+
+@media (max-width: 600px) {
+    #logo {
+      height: 56px;
+    }
+}
