@@ -51,9 +51,9 @@ function genreHits(search) {
                  <li class="resultList">
                     <div class="collapsible-header truncate"><img src="${obj[Object.keys(obj)[0]]}">${data.tracks.track[i].name} - ${data.tracks.track[i].artist.name}</div>
                      <div class="collapsible-body">
-                     <i class="fab fa-youtube"></i><span id="playYoutube"> Play YouTube video</span> <br>
-                     <i class="far fa-star"></i> <span id="addFavorite">Add to your favorites </span><br>
-                     <i class="fas fa-share-alt"></i> <span id="shareCommunity">Share with community </span>
+                     <a href="#"><i class="fab fa-youtube"></i><span id="playYoutube"> Play YouTube video</span></a> <br>
+                     <a href="#"><i class="far fa-star"></i> <span id="addFavorite">Add to your favorites </span></a><br>
+                     <a href="#"><i class="fas fa-share-alt"></i> <span id="shareCommunity">Share with community </span></a>
                      </div>
                 </li>     
              `)
@@ -75,9 +75,9 @@ function topHits() {
                      <li class="resultList">
                         <div class="collapsible-header truncate"><img src="${obj[Object.keys(obj)[0]]}">${data.tracks.track[i].name} - ${data.tracks.track[i].artist.name}</div>
                          <div class="collapsible-body">
-                         <i class="fab fa-youtube"></i><span id="playYoutube"> Play YouTube video</span> <br>
-                         <i class="far fa-star"></i> <span id="playYoutube">Add to your favorites </span><br>
-                         <i class="fas fa-share-alt"></i> <span id="playYoutube">Share with community </span>
+                        <a href="#"> <i class="fab fa-youtube"></i><span id="playYoutube"> Play YouTube video</span></a> <br>
+                        <a href="#"> <i class="far fa-star"></i> <span id="playYoutube">Add to your favorites</a> </span><br>
+                         <a href="#"><i class="fas fa-share-alt"></i> <span id="playYoutube">Share with community </span></a>
                          </div>
                     </li>
                  
