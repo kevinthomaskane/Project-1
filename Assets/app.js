@@ -48,7 +48,7 @@ function genreHits(search) {
             $(".collapsible").append(`
                  <li class="resultList">
                     <div class="collapsible-header"><img src="${obj[Object.keys(obj)[0]]}">${data.tracks.track[i].name} - ${data.tracks.track[i].artist.name}</div>
-                     <div class="collapsible-body"><br>
+                     <div class="collapsible-body">
                      <i class="fab fa-youtube"></i><span id="playYoutube"> Play YouTube video</span> <br>
                      <i class="far fa-star"></i> <span id="addFavorite">Add to your favorites </span><br>
                      <i class="fas fa-share-alt"></i> <span id="shareCommunity">Share with community </span>
