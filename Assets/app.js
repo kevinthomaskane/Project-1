@@ -46,7 +46,7 @@ function genreHits(search) {
         for (let i = 0; i < data.tracks.track.length; i++) {
             var obj = data.tracks.track[i].image[2];
             $(".collapsible").append(`
-                 <li>
+                 <li class="resultList">
                     <div class="collapsible-header"><img src="${obj[Object.keys(obj)[0]]}">${data.tracks.track[i].name} - ${data.tracks.track[i].artist.name}</div>
                      <div class="collapsible-body"><br>
                      <i class="fab fa-youtube"></i><span id="playYoutube"> Play YouTube video</span> <br>
