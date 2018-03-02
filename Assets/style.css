@@ -36,6 +36,39 @@ body {
     margin-left: 585px;
 }
 
+/* Styling for the collapsible */
+.collapsible{
+    margin-left: 240px;
+    width: 375px;
+    
+}
+
+.collapsible-header img {
+    height: 50px;
+    width: 60px;
+    padding-right: 10px;
+    
+}
+
+.collapsible-header{
+    padding: 5px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.collapsible-body{
+    color: white;
+    padding: 0 10px 10px 10px;
+}
+
+#resultsArea {
+    max-height: 700px;
+    overflow: scroll;
+}
+
+/* Collapsible styling ends here */
+
 @media (max-width: 600px) {
     #logo {
       height: 56px;
