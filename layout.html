@@ -33,36 +33,50 @@
         </div>
     </nav>
     <ul class="side-nav fixed">
+        <form>
+            <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+            </div>
+        </form>
         <li>
-            <a class="links" href="#">Lastest Chart Toppers</a>
+            <a class="links" id="current" href="#">Lastest Chart Toppers</a>
         </li>
         <p>All Time Toppers by Genre</p>
         <li>
-            <a class="links" class="genre" id="rap" href="#">Rap</a>
+            <a class="links" id="rap" href="#">Rap</a>
         </li>
         <li>
-            <a class="links" class="genre" id="hiphop" href="#">Hip Hop</a>
+            <a class="links" id="hiphop" href="#">Hip Hop</a>
         </li>
         <li>
-            <a class="links" class="genre" id="rb" href="#">R&ampB</a>
+            <a class="links" id="rb" href="#">R&ampB</a>
         </li>
         <li>
-            <a class="links" class="genre" id="pop" href="#">Pop</a>
+            <a class="links" id="pop" href="#">Pop</a>
         </li>
         <li>
-            <a class="links" class="genre" id="rock" href="#">Rock</a>
+            <a class="links" id="rock" href="#">Rock</a>
         </li>
         <li>
-            <a class="links" class="genre" id="country" href="#">Country</a>
+            <a class="links" id="country" href="#">Country</a>
         </li>
     </ul>
-    <!-- Chart list side bar -->
-    <div id="resultsArea">
-        <ul class="collapsible popout" data-collapsible="accordion"></ul>
+    <div class="side-nav fixed resultList">
+        <!-- Chart list side bar -->
+        <div id="resultsArea">
+            <ul class="collapsible popout" data-collapsible="accordion"></ul>
+        </div>
     </div>
-    <!-- Video embed -->
-    <div id="video">
-
+    <div class="container">
+        <div class="row">
+            <div class="col l12">    
+                <!-- Video embed -->
+                <div id="video">
+                </div>
+            </div> 
+        </div>    
     </div>
 
 

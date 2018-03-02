@@ -23,22 +23,22 @@ body {
     margin: 0px 20px 0px;
     font-weight: bold;
 }
-.chart-list {
-    margin-left: 250px;
-    margin-top: 80px;
-    text-align: top;
-    width: 300px;
-    display: inline-block;
+
+.resultList {
+    left: 240px !important;
+    width: 375px;
+    background-color: black;
 }
+
 #video {
     display: inline-block;
-    margin-top: -70px;
-    margin-left: 585px;
+    margin-top: 100px;
+    margin-left: 400px;
 }
 
 /* Styling for the collapsible */
 .collapsible{
-    margin-left: 240px;
+    margin-left: 40px;
     width: 375px;
     
 }
@@ -56,15 +56,14 @@ body {
     text-align: center;
     vertical-align: middle;
 }
-
 .collapsible-body{
-    color: white;
-    padding: 0 10px 10px 10px;
+    background-color: black !important;
 }
 
+
 #resultsArea {
-    max-height: 700px;
-    overflow: scroll;
+    height: auto;
+    overflow: auto;
 }
 
 /* Collapsible styling ends here */
